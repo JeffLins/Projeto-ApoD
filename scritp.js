@@ -2,7 +2,7 @@ let botao = $('#button')
 $('.video').addClass('none')
 
 botao.on('click', function(){
-    $('html').attr('height' , 'auto')
+    $('html').css('height' , 'auto')
     $.ajax({url:'https://api.nasa.gov/planetary/apod?api_key=BduVdecGn4sew3h9LBttGuARBVQJjR6e3PLqcbHw&date='+date.value,     
         success: function(result){         
         $('.descricao').text(result.explanation)         
