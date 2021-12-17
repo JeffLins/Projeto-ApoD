@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 html{
-    width: 100%; 
+    height: 100%; 
 }
 
 body {
@@ -16,8 +16,8 @@ body {
     background-size: cover;
     color: #E5E5E5;
     font-size: 2em;
-    padding-bottom: 80px;
-    width: 100%;
+    padding-bottom: 20px;
+    height: 100%;
 }
 
 
@@ -51,6 +51,11 @@ img{
     margin-top: 20px;
 }
 
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .databtn{
     display: flex;
     align-items: center;
